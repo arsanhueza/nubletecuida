@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C349D12F243A3EC400851BC6 /* SPLASH in Resources */ = {isa = PBXBuildFile; fileRef = C349D12C243A3EC300851BC6 /* SPLASH */; };
+		C349D130243A3EC400851BC6 /* BOTONES in Resources */ = {isa = PBXBuildFile; fileRef = C349D12D243A3EC300851BC6 /* BOTONES */; };
+		C349D131243A3EC400851BC6 /* ICONOS-TAB-BAR in Resources */ = {isa = PBXBuildFile; fileRef = C349D12E243A3EC400851BC6 /* ICONOS-TAB-BAR */; };
+		C349D133243A421300851BC6 /* NoticiasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349D132243A421300851BC6 /* NoticiasVC.swift */; };
+		C349D135243A424600851BC6 /* MapaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349D134243A424600851BC6 /* MapaVC.swift */; };
+		C349D137243A427D00851BC6 /* ContactoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C349D136243A427D00851BC6 /* ContactoVC.swift */; };
 		C374089624396DD100D28C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374089524396DD100D28C13 /* AppDelegate.swift */; };
 		C374089824396DD100D28C13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374089724396DD100D28C13 /* SceneDelegate.swift */; };
-		C374089A24396DD100D28C13 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374089924396DD100D28C13 /* FirstViewController.swift */; };
-		C374089C24396DD100D28C13 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374089B24396DD100D28C13 /* SecondViewController.swift */; };
+		C374089A24396DD100D28C13 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374089924396DD100D28C13 /* TestVC.swift */; };
+		C374089C24396DD100D28C13 /* ConsejosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374089B24396DD100D28C13 /* ConsejosVC.swift */; };
 		C374089F24396DD100D28C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C374089D24396DD100D28C13 /* Main.storyboard */; };
 		C37408A124396DD200D28C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37408A024396DD200D28C13 /* Assets.xcassets */; };
 		C37408A424396DD200D28C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37408A224396DD200D28C13 /* LaunchScreen.storyboard */; };
@@ -36,11 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C349D12C243A3EC300851BC6 /* SPLASH */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SPLASH; sourceTree = "<group>"; };
+		C349D12D243A3EC300851BC6 /* BOTONES */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BOTONES; sourceTree = "<group>"; };
+		C349D12E243A3EC400851BC6 /* ICONOS-TAB-BAR */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ICONOS-TAB-BAR"; sourceTree = "<group>"; };
+		C349D132243A421300851BC6 /* NoticiasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiasVC.swift; sourceTree = "<group>"; };
+		C349D134243A424600851BC6 /* MapaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaVC.swift; sourceTree = "<group>"; };
+		C349D136243A427D00851BC6 /* ContactoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoVC.swift; sourceTree = "<group>"; };
 		C374089224396DD100D28C13 /* nubletecuida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nubletecuida.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C374089524396DD100D28C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C374089724396DD100D28C13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C374089924396DD100D28C13 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		C374089B24396DD100D28C13 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C374089924396DD100D28C13 /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		C374089B24396DD100D28C13 /* ConsejosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsejosVC.swift; sourceTree = "<group>"; };
 		C374089E24396DD100D28C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C37408A024396DD200D28C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C37408A324396DD200D28C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,11 +115,15 @@
 			children = (
 				C374089524396DD100D28C13 /* AppDelegate.swift */,
 				C374089724396DD100D28C13 /* SceneDelegate.swift */,
-				C374089924396DD100D28C13 /* FirstViewController.swift */,
-				C374089B24396DD100D28C13 /* SecondViewController.swift */,
+				C374089924396DD100D28C13 /* TestVC.swift */,
+				C374089B24396DD100D28C13 /* ConsejosVC.swift */,
+				C349D132243A421300851BC6 /* NoticiasVC.swift */,
+				C349D134243A424600851BC6 /* MapaVC.swift */,
+				C349D136243A427D00851BC6 /* ContactoVC.swift */,
 				C374089D24396DD100D28C13 /* Main.storyboard */,
-				C37408A024396DD200D28C13 /* Assets.xcassets */,
 				C37408A224396DD200D28C13 /* LaunchScreen.storyboard */,
+				C37408A024396DD200D28C13 /* Assets.xcassets */,
+				C37408C72439709900D28C13 /* imagenes */,
 				C37408A524396DD200D28C13 /* Info.plist */,
 			);
 			path = nubletecuida;
@@ -129,6 +145,16 @@
 				C37408BB24396DD300D28C13 /* Info.plist */,
 			);
 			path = nubletecuidaUITests;
+			sourceTree = "<group>";
+		};
+		C37408C72439709900D28C13 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				C349D12D243A3EC300851BC6 /* BOTONES */,
+				C349D12E243A3EC400851BC6 /* ICONOS-TAB-BAR */,
+				C349D12C243A3EC300851BC6 /* SPLASH */,
+			);
+			path = imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +262,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C37408A424396DD200D28C13 /* LaunchScreen.storyboard in Resources */,
+				C349D131243A3EC400851BC6 /* ICONOS-TAB-BAR in Resources */,
+				C349D12F243A3EC400851BC6 /* SPLASH in Resources */,
 				C37408A124396DD200D28C13 /* Assets.xcassets in Resources */,
 				C374089F24396DD100D28C13 /* Main.storyboard in Resources */,
+				C349D130243A3EC400851BC6 /* BOTONES in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C374089C24396DD100D28C13 /* SecondViewController.swift in Sources */,
-				C374089A24396DD100D28C13 /* FirstViewController.swift in Sources */,
+				C374089C24396DD100D28C13 /* ConsejosVC.swift in Sources */,
+				C374089A24396DD100D28C13 /* TestVC.swift in Sources */,
 				C374089624396DD100D28C13 /* AppDelegate.swift in Sources */,
+				C349D137243A427D00851BC6 /* ContactoVC.swift in Sources */,
 				C374089824396DD100D28C13 /* SceneDelegate.swift in Sources */,
+				C349D133243A421300851BC6 /* NoticiasVC.swift in Sources */,
+				C349D135243A424600851BC6 /* MapaVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
